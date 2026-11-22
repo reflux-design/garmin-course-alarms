@@ -1,0 +1,9 @@
+.build/
+__pycache__/
+*.fit
+*.apk
+*.jar
+*.jks
+*.key
+.env
+/local/

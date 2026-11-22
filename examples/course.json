@@ -1,0 +1,14 @@
+{
+  "timezone": "Asia/Tokyo",
+  "term_start": "2030-09-02",
+  "lead_minutes": 35,
+  "no_class_wake": "08:20",
+  "courses": [
+    {"id":"demo-a","name":"示例课程","weekday":1,"start":"09:10","end":"10:40","weeks":[1,3]},
+    {"id":"demo-duty","name":"示例值班","weekday":4,"start":"09:10","end":"10:40","weeks":[1,2,3]}
+  ],
+  "exceptions": {
+    "2030-09-09": {"cancel_ids":[], "add":[{"id":"demo-makeup","name":"示例补课","start":"09:10","end":"10:40"}]}
+  },
+  "wake_overrides": {"2030-09-04":"08:05"}
+}
