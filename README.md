@@ -17,3 +17,4 @@ python tools/run.py plan examples/course.json 2030-09-02 --slots 8 --backup-minu
 
 - 改用户规则或接新课表时，先看 [AGENTS.md](AGENTS.md) 和 [示例课表](examples/course.json)。
 - 接入 Android 应用并写入自己的设备时，看 [Android 集成说明](docs/android-integration.md)。
+- 复现蓝牙连接、读取和上传设置、定位同步失败时，看 [连接与传输研究](docs/transport.md)。
